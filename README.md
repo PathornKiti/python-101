@@ -85,8 +85,6 @@ Each week is estimated at approximately **2 hours**.
 | Project 2: Data Container Project | After Unit 07 | Students create their own data-handling program using strings, files, lists, tuples, sets, and dictionaries |
 | Capstone 1: Beginner Python Application | After Unit 10 | Students build a complete beginner-level Python application using most course concepts |
 
-Detailed project instructions are stored inside the `beginner/projects/` and `beginner/capstone/` folders.
-
 ---
 
 # Course 2: Intermediate Course — Practical Python Programming
@@ -144,7 +142,6 @@ Each week is estimated at approximately **2 hours**.
 | Project 1: Structured CLI App | After Unit 03 | Students build a command-line project with modules, error handling, JSON/CSV, logging, and tests |
 | Capstone Project: Practical Python App | After Unit 06 | Students build a practical app using project structure, APIs, reports, visualization, and Streamlit |
 
-Detailed project instructions are stored inside the `intermediate/projects/` and `intermediate/capstone/` folders.
 
 ---
 
