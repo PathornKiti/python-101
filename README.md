@@ -11,7 +11,7 @@ The beginner course focuses on basic Python syntax and problem-solving.
 
 The intermediate course focuses on building real Python projects using scripts, modules, command line tools, testing, logging, APIs, visualization, and simple applications.
 
-Detailed unit outlines, exercises, project notebooks, and capstone instructions are stored inside each course folder.
+Detailed unit outlines, exercises, project notebooks, and capstone instructions are stored inside each course folder. The standalone intermediate course outline is available in [`python_for_intermediate_class/`](python_for_intermediate_class/).
 
 ---
 
