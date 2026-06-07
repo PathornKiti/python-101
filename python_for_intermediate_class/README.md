@@ -50,8 +50,8 @@ The setup unit should be completed before the main course starts. The remaining 
 | 2 | Week 2 | [Unit 02](unit02_create_your_own_library/) | Create Your Own Library with a Data Model | A reusable package imported by a script and notebook |
 | 3 | Week 3 | [Unit 03](unit03_command_line/) | Command Line Basics | Students can navigate folders and run scripts from terminal |
 | 4 | Week 4 | [Unit 04](unit04_venv_git/) | Git and Virtual Environment | A Git-tracked Python project with `venv` and `requirements.txt` |
-| 5 | Week 5 | Unit 05 Part 1 | Error Handling and Debugging | Safer code using exceptions and debugging habits |
-| 6 | Week 6 | Unit 05 Part 2 | Testing, Logging, JSON, and CSV | Basic tests, log file, and saved data files |
+| 5 | Week 5 | [Unit 05 Part 1](unit05_error_logging_testing_data/) | Error Handling and Debugging | Safer code using exceptions, debugging habits, and logs |
+| 6 | Week 6 | [Unit 05 Part 2](unit05_error_logging_testing_data/) | Testing, Logging, JSON, and CSV | Basic tests, log file, and saved JSON/CSV data files |
 | 7 | Week 7 | Project 1 | Structured CLI Project | A command-line application using Units 01-05 |
 | 8 | Week 8 | [Unit 06](unit06_data_analysis_bridge/) | Data Preparation and Analysis Bridge | Clean Project 1 data and prepare summaries for reports, charts, Streamlit, APIs, and capstone planning |
 | 9 | Week 9 | Unit 07 Part 1 | Visualization and Reports | Charts and a written summary report |
@@ -72,7 +72,7 @@ The setup unit should be completed before the main course starts. The remaining 
 | Unit 02 | [`unit02_create_your_own_library/`](unit02_create_your_own_library/) | Notebook lesson, script example, and reusable package that exports a function, class, and data model. |
 | Unit 03 | [`unit03_command_line/`](unit03_command_line/) | Command-line cheat sheet, first student-written CLI pattern, raw argument demo, and argparse examples that reuse the Unit 02 library. |
 | Unit 04 | [`unit04_venv_git/`](unit04_venv_git/) | Detailed Markdown lesson for virtual environments, Git setup, step-by-step workflows, troubleshooting, and a command cheat sheet. |
-| Unit 05 | Planned lesson folder | Error handling, debugging, testing, logging, JSON, and CSV lessons that prepare students for Project 1. |
+| Unit 05 | [`unit05_error_logging_testing_data/`](unit05_error_logging_testing_data/) | Notebook lesson, study script, tests, sample JSON/CSV data, and logging practice that prepare students for Project 1. |
 | Unit 06 | [`unit06_data_analysis_bridge/`](unit06_data_analysis_bridge/) | Markdown lesson plan that connects the structured CLI project to visualization, Streamlit, APIs, and the capstone. |
 
 ## Setup Preparation: Step-by-Step
@@ -152,7 +152,7 @@ intermediate-python/
   unit02_create_your_own_library/
   unit03_command_line/
   unit04_venv_git/
-  unit05_testing_logging_data/
+  unit05_error_logging_testing_data/
   project01_structured_cli_app/
   unit06_data_analysis_bridge/
   unit07_visualization_streamlit/
@@ -406,12 +406,12 @@ unit02_create_your_own_library/
 - read Python error messages
 - identify common errors
 - use `try`, `except`, and `finally`
-- raise simple custom errors
+- raise simple validation errors
 - debug with print statements and VS Code debugger
 
 **Part 2: Testing, Logging, JSON, and CSV**
 
-- write simple tests with `pytest`
+- write simple tests with `unittest` or `pytest`
 - test pure functions
 - create log messages
 - save data to JSON
@@ -421,16 +421,20 @@ unit02_create_your_own_library/
 **Suggested folder:**
 
 ```text
-unit05_testing_logging_data/
-  app.py
-  data_store.py
+unit05_error_logging_testing_data/
+  README.md
+  unit05_error_logging_testing_data.ipynb
+  student_records_app.py
   tests/
-    test_data_store.py
+    test_student_records_app.py
   data/
-    sample.csv
+    study_records.json
+    study_records.csv
+  logs/
+    unit05_app.log
 ```
 
-**Mini outcome:** A small data program with tests, logs, and JSON or CSV persistence.
+**Mini outcome:** A small data program with a study notebook, tests, logs, and JSON/CSV persistence.
 
 ---
 

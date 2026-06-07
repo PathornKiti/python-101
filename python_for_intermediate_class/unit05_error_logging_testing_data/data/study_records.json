@@ -1,0 +1,20 @@
+[
+  {
+    "student": "Maya",
+    "topic": "Error handling",
+    "minutes": 30,
+    "completed": true
+  },
+  {
+    "student": "Maya",
+    "topic": "Logging",
+    "minutes": 20,
+    "completed": true
+  },
+  {
+    "student": "Maya",
+    "topic": "JSON and CSV",
+    "minutes": 35,
+    "completed": false
+  }
+]
