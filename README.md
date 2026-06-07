@@ -107,16 +107,16 @@ Each week is estimated at approximately **2 hours**.
 |---:|---|---|---|
 | Week 1 | Unit 01 Part 1 | From Notebook to `.py` Files | Convert notebook code into Python scripts |
 | Week 2 | Unit 02 | Create Your Own Library | Build reusable modules and import your own function, class, and data model |
-| Week 3 | [Unit 03 Part 1](python_for_intermediate_class/unit03_command_line/) | Command Line Basics | Run Python scripts from terminal and use basic shell commands |
-| Week 4 | Unit 03 Part 2 | Git and Virtual Environment | Use Git, `.gitignore`, `venv`, `pip`, and `requirements.txt` |
-| Week 5 | Unit 04 Part 1 | Error Handling and Debugging | Use `try/except`, read errors, and debug code |
-| Week 6 | Unit 04 Part 2 | Testing, Logging, JSON, and CSV | Add tests, logs, and saved data files |
-| Week 7 | Project 1 | Structured CLI Project | Build a structured command-line application |
-| Week 8 | Unit 05 | Data Preparation and Analysis Bridge | Clean Project 1 data and prepare summaries for later reports, charts, Streamlit, APIs, and capstone planning |
-| Week 9 | Unit 06 Part 1 | Visualization and Reports | Create charts and summary reports |
-| Week 10 | Unit 06 Part 2 | Streamlit Basics | Turn a report into a simple Streamlit app |
-| Week 11 | Unit 07 Part 1 | API Basics | Call an API and parse JSON responses |
-| Week 12 | Unit 07 Part 2 | API App with Error Handling | Build a small API-powered app |
+| Week 3 | [Unit 03](python_for_intermediate_class/unit03_command_line/) | Command Line Basics | Run Python scripts from terminal and use basic shell commands |
+| Week 4 | [Unit 04](python_for_intermediate_class/unit04_venv_git/) | Git and Virtual Environment | Use Git, `.gitignore`, `venv`, `pip`, and `requirements.txt` |
+| Week 5 | Unit 05 Part 1 | Error Handling and Debugging | Use `try/except`, read errors, and debug code |
+| Week 6 | Unit 05 Part 2 | Testing, Logging, JSON, and CSV | Add tests, logs, and saved data files |
+| Week 7 | Project 1 | Structured CLI Project | Build a structured command-line application using Units 01–05 |
+| Week 8 | [Unit 06](python_for_intermediate_class/unit06_data_analysis_bridge/) | Data Preparation and Analysis Bridge | Clean Project 1 data and prepare summaries for later reports, charts, Streamlit, APIs, and capstone planning |
+| Week 9 | Unit 07 Part 1 | Visualization and Reports | Create charts and summary reports |
+| Week 10 | Unit 07 Part 2 | Streamlit Basics | Turn a report into a simple Streamlit app |
+| Week 11 | Unit 08 Part 1 | API Basics | Call an API and parse JSON responses |
+| Week 12 | Unit 08 Part 2 | API App with Error Handling | Build a small API-powered app |
 | Week 13 | Capstone Planning | Intermediate Capstone Design | Plan project structure, features, and data flow |
 | Week 14 | Capstone Build | Intermediate Capstone Project | Complete and present a practical Python application |
 
@@ -128,13 +128,14 @@ Each week is estimated at approximately **2 hours**.
 |---:|---|---|
 | Unit 01 | Systematic Python Project Structure | Move from `.ipynb` to `.py` and prepare reusable functions |
 | Unit 02 | Create Your Own Library | Build a small reusable library with an importable function, class, and data model |
-| Unit 03 | [Command Line](python_for_intermediate_class/unit03_command_line/), Git, and Virtual Environment | Learn the basic workflow for running and managing Python projects |
-| Unit 04 | Testing, Debugging, Logging, JSON, and CSV | Make programs safer, easier to debug, and easier to maintain |
-| Project 1 | Structured CLI Project | Apply Units 01–04 in a structured command-line project |
-| Unit 05 | Data Preparation and Analysis Bridge | Turn Project 1 data into clean summaries that connect to reports, apps, APIs, and the capstone |
-| Unit 06 | Visualization, Reports, and Streamlit | Present program results using charts, reports, and simple web apps |
-| Unit 07 | APIs and External Data | Connect Python programs to outside data sources |
-| Unit 08 | Intermediate Capstone Project | Build a complete practical Python application |
+| Unit 03 | [Command Line](python_for_intermediate_class/unit03_command_line/) | Learn terminal navigation and the workflow for running Python scripts from the command line |
+| Unit 04 | [Git and Virtual Environment](python_for_intermediate_class/unit04_venv_git/) | Manage Python projects with Git, `.gitignore`, `venv`, `pip`, and `requirements.txt` |
+| Unit 05 | Error Handling, Debugging, Testing, Logging, JSON, and CSV | Make programs safer, easier to debug, easier to test, and ready to save data |
+| Project 1 | Structured CLI Project | Apply Units 01–05 in a structured command-line project |
+| Unit 06 | [Data Preparation and Analysis Bridge](python_for_intermediate_class/unit06_data_analysis_bridge/) | Turn Project 1 data into clean summaries that connect to reports, apps, APIs, and the capstone |
+| Unit 07 | Visualization, Reports, and Streamlit | Present program results using charts, reports, and simple web apps |
+| Unit 08 | APIs and External Data | Connect Python programs to outside data sources |
+| Unit 09 | Intermediate Capstone Project | Build a complete practical Python application |
 
 ---
 
@@ -142,8 +143,8 @@ Each week is estimated at approximately **2 hours**.
 
 | Project | Timing | Main Goal |
 |---|---|---|
-| Project 1: Structured CLI App | After Unit 04 | Students build a command-line project with modules, error handling, JSON/CSV, logging, and tests |
-| Capstone Project: Practical Python App | After Unit 07 | Students build a practical app using project structure, APIs, reports, visualization, and Streamlit |
+| Project 1: Structured CLI App | After Unit 05 | Students build a command-line project with modules, error handling, JSON/CSV, logging, and tests |
+| Capstone Project: Practical Python App | After Unit 08 | Students build a practical app using project structure, APIs, reports, visualization, and Streamlit |
 
 
 ---
