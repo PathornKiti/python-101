@@ -60,7 +60,6 @@ For this repository, run Unit 03 examples from the repository root:
 
 ```bash
 python python_for_intermediate_class/unit03_command_line/command_line_components.py Maya 30 --completed
-python python_for_intermediate_class/unit03_command_line/build_your_first_cli.py Maya 14 Python
 python python_for_intermediate_class/unit03_command_line/study_points_cli.py "Python imports" 35 --completed --student Maya
 ```
 
@@ -83,34 +82,7 @@ python python_for_intermediate_class/unit03_command_line/study_points_cli.py "Py
 | `--completed` | Optional flag | A boolean switch. Present means `True`; absent means `False`. |
 | `--student Maya` | Optional argument | Named option with a value. |
 
-
-## 6. Write Code, Then Call It from the CLI
-
-Basic student pattern:
-
-```python
-import argparse
-
-parser = argparse.ArgumentParser(description="Say hello.")
-parser.add_argument("name", help="person to greet")
-parser.add_argument("--times", type=int, default=1)
-args = parser.parse_args()
-
-for _ in range(args.times):
-    print(f"Hello, {args.name}!")
-```
-
-Run the same file multiple ways:
-
-```bash
-python hello_cli.py Maya
-python hello_cli.py Maya --times 3
-python hello_cli.py Leo --times 2
-```
-
-Each run creates new parsed values in `args`.
-
-## 7. Arguments: The Big Idea
+## 6. Arguments: The Big Idea
 
 An **argument** is information you give to a command.
 
@@ -139,7 +111,7 @@ Important detail:
 - `sys.argv[1]` is the first user argument.
 - All values arrive as strings until you convert them.
 
-## 8. Positional Arguments vs Optional Arguments
+## 7. Positional Arguments vs Optional Arguments
 
 | Type | Example | Required? | Best For |
 |---|---|---:|---|
@@ -148,7 +120,7 @@ Important detail:
 | Short option | `-s Maya` | Usually no | Fast typing after students know the command. |
 | Boolean flag | `--completed` | No | Turning a feature on or off. |
 
-## 9. Quoting Rules
+## 8. Quoting Rules
 
 Use quotes when an argument contains spaces:
 
@@ -164,7 +136,7 @@ python app.py Python imports
 
 The program receives two arguments: `Python` and `imports`.
 
-## 10. Helpful Shell Symbols
+## 9. Helpful Shell Symbols
 
 | Symbol | Name | Use |
 |---|---|---|
@@ -178,7 +150,7 @@ The program receives two arguments: `Python` and `imports`.
 | `>>` | Append output | `python app.py >> output.txt` |
 | `|` | Pipe output | `python app.py | more` |
 
-## 11. Virtual Environment Commands
+## 10. Virtual Environment Commands
 
 Create a virtual environment:
 
@@ -222,7 +194,7 @@ Install saved dependencies:
 python -m pip install -r requirements.txt
 ```
 
-## 12. Git Commands Students Need Soon
+## 11. Git Commands Students Need Soon
 
 | Task | Command |
 |---|---|
@@ -232,7 +204,7 @@ python -m pip install -r requirements.txt
 | Commit staged changes | `git commit -m "message"` |
 | See commit history | `git log --oneline` |
 
-## 13. Debugging Command-Line Problems
+## 12. Debugging Command-Line Problems
 
 | Problem | Common Cause | Fix |
 |---|---|---|
@@ -243,7 +215,7 @@ python -m pip install -r requirements.txt
 | Number behaves like text | CLI values are strings. | Convert with `int()` or use `argparse type=int`. |
 | Optional flag ignored | Flag name misspelled. | Run the command with `--help`. |
 
-## 14. Best Practices
+## 13. Best Practices
 
 - Run commands from the project root when paths in lessons assume the repository root.
 - Prefer `python -m pip ...` instead of plain `pip ...` so pip belongs to the same Python interpreter.

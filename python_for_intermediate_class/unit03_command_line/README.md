@@ -13,7 +13,6 @@ By the end of this unit, students should be able to:
 - explain what the terminal, shell, prompt, command, option, flag, and argument are;
 - navigate folders from the command line;
 - run Python scripts from the repository root;
-- write a small `.py` CLI program and call it repeatedly with different arguments;
 - explain how `sys.argv` receives raw command-line arguments;
 - explain why command-line input starts as strings;
 - use `argparse` to create friendly command-line programs;
@@ -28,7 +27,6 @@ By the end of this unit, students should be able to:
 | `README.md` | Full lesson guide for command-line basics and Python arguments. |
 | `CLI_CHEAT_SHEET.md` | Quick reference for common terminal, Python, virtual environment, and Git commands. |
 | `command_line_components.py` | Beginner-friendly script that teaches `sys.argv` and shows every raw command-line component. |
-| `build_your_first_cli.py` | Step-by-step first CLI program students can copy, modify, run, and rerun with different arguments. |
 | `study_points_cli.py` | Practical `argparse` CLI that uses the Unit 02 study library. |
 | `multi_session_cli.py` | More advanced `argparse` example using repeated arguments and subcommands. |
 
@@ -82,24 +80,6 @@ python python_for_intermediate_class/unit03_command_line/command_line_components
 
 ```bash
 python python_for_intermediate_class/unit03_command_line/command_line_components.py --help
-```
-
-### Run the First Student-Written CLI Pattern
-
-```bash
-python python_for_intermediate_class/unit03_command_line/build_your_first_cli.py Maya 14 Python
-```
-
-### Rerun the Same Code with Different Arguments
-
-```bash
-python python_for_intermediate_class/unit03_command_line/build_your_first_cli.py Aisha 15 Python --repeat 3 --excited
-```
-
-### Ask the First CLI Pattern for Help
-
-```bash
-python python_for_intermediate_class/unit03_command_line/build_your_first_cli.py --help
 ```
 
 ### Run the Practical Study Points CLI
@@ -159,45 +139,6 @@ Breakdown:
 | `35` | Second positional argument | Study minutes. |
 | `--completed` | Boolean flag | Marks the session as completed. |
 | `--student Maya` | Optional argument | Gives a student name. |
-
-## Student Workflow: Write Code, Then Call It from the CLI
-
-A command-line program is still normal Python code. The difference is that input can come from the terminal instead of from `input()` or hard-coded variables.
-
-Use this workflow every time you create a small CLI program:
-
-1. **Create or open a `.py` file.** Example: `build_your_first_cli.py`.
-2. **Import `argparse`.** This gives Python a clean way to understand command-line arguments.
-3. **Create a parser.** The parser describes what values the user may type.
-4. **Add arguments.** Use positional arguments for required values and optional arguments for settings.
-5. **Parse this run.** `args = parser.parse_args()` reads the values typed in the terminal for the current run.
-6. **Use `args.name`, `args.age`, or other parsed values in regular Python code.**
-7. **Run the file from the terminal.** Change only the command arguments to create different results.
-8. **Rerun with `--help`.** Check whether your CLI explains itself clearly.
-
-Minimal pattern:
-
-```python
-import argparse
-
-parser = argparse.ArgumentParser(description="Say hello from the command line.")
-parser.add_argument("name", help="person to greet")
-parser.add_argument("--times", type=int, default=1, help="number of greetings")
-args = parser.parse_args()
-
-for _ in range(args.times):
-    print(f"Hello, {args.name}!")
-```
-
-If this code is saved in `hello_cli.py`, you can call it like this:
-
-```bash
-python hello_cli.py Maya
-python hello_cli.py Maya --times 3
-python hello_cli.py Leo --times 2
-```
-
-The file stays the same. Each run passes new arguments, and `parse_args()` creates a new `args` object for that run.
 
 ## Arguments in Python: `sys.argv`
 
