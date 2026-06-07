@@ -107,7 +107,7 @@ Each week is estimated at approximately **2 hours**.
 |---:|---|---|---|
 | Week 1 | Unit 01 Part 1 | From Notebook to `.py` Files | Convert notebook code into Python scripts |
 | Week 2 | Unit 02 | Create Your Own Library | Build reusable modules and import your own function, class, and data model |
-| Week 3 | Unit 03 Part 1 | Command Line Basics | Run Python scripts from terminal and use basic shell commands |
+| Week 3 | [Unit 03 Part 1](python_for_intermediate_class/unit03_command_line/) | Command Line Basics | Run Python scripts from terminal and use basic shell commands |
 | Week 4 | Unit 03 Part 2 | Git and Virtual Environment | Use Git, `.gitignore`, `venv`, `pip`, and `requirements.txt` |
 | Week 5 | Unit 04 Part 1 | Error Handling and Debugging | Use `try/except`, read errors, and debug code |
 | Week 6 | Unit 04 Part 2 | Testing, Logging, JSON, and CSV | Add tests, logs, and saved data files |
@@ -128,7 +128,7 @@ Each week is estimated at approximately **2 hours**.
 |---:|---|---|
 | Unit 01 | Systematic Python Project Structure | Move from `.ipynb` to `.py` and prepare reusable functions |
 | Unit 02 | Create Your Own Library | Build a small reusable library with an importable function, class, and data model |
-| Unit 03 | Command Line, Git, and Virtual Environment | Learn the basic workflow for running and managing Python projects |
+| Unit 03 | [Command Line](python_for_intermediate_class/unit03_command_line/), Git, and Virtual Environment | Learn the basic workflow for running and managing Python projects |
 | Unit 04 | Testing, Debugging, Logging, JSON, and CSV | Make programs safer, easier to debug, and easier to maintain |
 | Project 1 | Structured CLI Project | Apply Units 01–04 in a structured command-line project |
 | Unit 05 | Data Preparation and Analysis Bridge | Turn Project 1 data into clean summaries that connect to reports, apps, APIs, and the capstone |
