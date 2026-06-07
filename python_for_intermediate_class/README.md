@@ -48,16 +48,16 @@ The setup unit should be completed before the main course starts. The remaining 
 | 0 | Before Week 1 | Setup Preparation | VS Code, Python, Git, GitHub, and virtual environment basics | Student computer is ready for development |
 | 1 | Week 1 | [Unit 01 Part 1](unit01_notebook_to_py/) | From Notebook to `.py` Files | A working Python script converted from notebook-style code |
 | 2 | Week 2 | [Unit 02](unit02_create_your_own_library/) | Create Your Own Library with a Data Model | A reusable package imported by a script and notebook |
-| 3 | Week 3 | [Unit 03 Part 1](unit03_command_line/) | Command Line Basics | Students can navigate folders and run scripts from terminal |
+| 3 | Week 3 | [Unit 03](unit03_command_line/) | Command Line Basics | Students can navigate folders and run scripts from terminal |
 | 4 | Week 4 | [Unit 04](unit04_venv_git/) | Git and Virtual Environment | A Git-tracked Python project with `venv` and `requirements.txt` |
-| 5 | Week 5 | Unit 04 Part 1 | Error Handling and Debugging | Safer code using exceptions and debugging habits |
-| 6 | Week 6 | Unit 04 Part 2 | Testing, Logging, JSON, and CSV | Basic tests, log file, and saved data files |
-| 7 | Week 7 | Project 1 | Structured CLI Project | A command-line application using Units 01-04 |
-| 8 | Week 8 | [Unit 05](unit05_data_analysis_bridge/) | Data Preparation and Analysis Bridge | Clean Project 1 data and prepare summaries for reports, charts, Streamlit, APIs, and capstone planning |
-| 9 | Week 9 | Unit 06 Part 1 | Visualization and Reports | Charts and a written summary report |
-| 10 | Week 10 | Unit 06 Part 2 | Streamlit Basics | A simple local Streamlit app |
-| 11 | Week 11 | Unit 07 Part 1 | API Basics | A script that calls an API and reads JSON |
-| 12 | Week 12 | Unit 07 Part 2 | API App with Error Handling | A small API-powered app with safer failures |
+| 5 | Week 5 | Unit 05 Part 1 | Error Handling and Debugging | Safer code using exceptions and debugging habits |
+| 6 | Week 6 | Unit 05 Part 2 | Testing, Logging, JSON, and CSV | Basic tests, log file, and saved data files |
+| 7 | Week 7 | Project 1 | Structured CLI Project | A command-line application using Units 01-05 |
+| 8 | Week 8 | [Unit 06](unit06_data_analysis_bridge/) | Data Preparation and Analysis Bridge | Clean Project 1 data and prepare summaries for reports, charts, Streamlit, APIs, and capstone planning |
+| 9 | Week 9 | Unit 07 Part 1 | Visualization and Reports | Charts and a written summary report |
+| 10 | Week 10 | Unit 07 Part 2 | Streamlit Basics | A simple local Streamlit app |
+| 11 | Week 11 | Unit 08 Part 1 | API Basics | A script that calls an API and reads JSON |
+| 12 | Week 12 | Unit 08 Part 2 | API App with Error Handling | A small API-powered app with safer failures |
 | 13 | Week 13 | Capstone Planning | Intermediate Capstone Design | Project plan, folder structure, feature list, and data flow |
 | 14 | Week 14 | Capstone Build | Intermediate Capstone Project | Completed practical Python application and presentation |
 
@@ -70,9 +70,10 @@ The setup unit should be completed before the main course starts. The remaining 
 |---|---|---|
 | Unit 01 Part 1 | [`unit01_notebook_to_py/`](unit01_notebook_to_py/) | Notebook lesson, script example, and best-practice notes for moving from `.ipynb` to `.py` files. |
 | Unit 02 | [`unit02_create_your_own_library/`](unit02_create_your_own_library/) | Notebook lesson, script example, and reusable package that exports a function, class, and data model. |
-| Unit 03 Part 1 | [`unit03_command_line/`](unit03_command_line/) | Command-line cheat sheet, first student-written CLI pattern, raw argument demo, and argparse examples that reuse the Unit 02 library. |
+| Unit 03 | [`unit03_command_line/`](unit03_command_line/) | Command-line cheat sheet, first student-written CLI pattern, raw argument demo, and argparse examples that reuse the Unit 02 library. |
 | Unit 04 | [`unit04_venv_git/`](unit04_venv_git/) | Detailed Markdown lesson for virtual environments, Git setup, step-by-step workflows, troubleshooting, and a command cheat sheet. |
-| Unit 05 | [`unit05_data_analysis_bridge/`](unit05_data_analysis_bridge/) | Markdown lesson plan that connects the structured CLI project to visualization, Streamlit, APIs, and the capstone. |
+| Unit 05 | Planned lesson folder | Error handling, debugging, testing, logging, JSON, and CSV lessons that prepare students for Project 1. |
+| Unit 06 | [`unit06_data_analysis_bridge/`](unit06_data_analysis_bridge/) | Markdown lesson plan that connects the structured CLI project to visualization, Streamlit, APIs, and the capstone. |
 
 ## Setup Preparation: Step-by-Step
 
@@ -149,12 +150,13 @@ Inside this folder, each unit can have its own project folder:
 intermediate-python/
   unit01_notebook_to_py/
   unit02_create_your_own_library/
-  unit03_cli_git_venv/
-  unit04_testing_logging_data/
+  unit03_command_line/
+  unit04_venv_git/
+  unit05_testing_logging_data/
   project01_structured_cli_app/
-  unit05_data_analysis_bridge/
-  unit06_visualization_streamlit/
-  unit07_api_app/
+  unit06_data_analysis_bridge/
+  unit07_visualization_streamlit/
+  unit08_api_app/
   capstone_project/
 ```
 
@@ -361,19 +363,26 @@ unit02_create_your_own_library/
 
 ---
 
-### Unit 03: Command Line, Git, and Virtual Environment
+### Unit 03: Command Line Basics
 
-**Goal:** Learn the workflow used in real Python projects.
-
-**Part 1: Command Line Basics**
+**Goal:** Learn how to use the terminal to navigate project folders and run Python scripts.
 
 - open terminal
 - understand current folder
 - use `pwd`, `cd`, `mkdir`, and `dir` or `ls`
 - run Python files from terminal
 - pass simple command-line arguments
+- use `sys.argv` and `argparse` for simple CLI inputs
 
-**Part 2: Git and Virtual Environment**
+**Materials:** [`unit03_command_line/`](unit03_command_line/) contains a command-line cheat sheet plus `sys.argv` and `argparse` demo scripts that reuse the Unit 02 library.
+
+**Mini outcome:** Students can navigate folders and run Python scripts from the command line.
+
+---
+
+### Unit 04: Git and Virtual Environment
+
+**Goal:** Manage Python projects with version control and isolated dependencies.
 
 - understand why projects use Git
 - use `git init`, `git status`, `git add`, and `git commit`
@@ -382,13 +391,13 @@ unit02_create_your_own_library/
 - install packages with `pip`
 - create `requirements.txt`
 
-**Part 1 materials:** [`unit03_command_line/`](unit03_command_line/) contains a command-line cheat sheet plus `sys.argv` and `argparse` demo scripts that reuse the Unit 02 library.
+**Materials:** [`unit04_venv_git/`](unit04_venv_git/) contains the full lesson for Git, `.gitignore`, virtual environments, package installation, dependency files, troubleshooting, and a command cheat sheet.
 
 **Mini outcome:** A Git-tracked project with a virtual environment and dependency file.
 
 ---
 
-### Unit 04: Testing, Debugging, Logging, JSON, and CSV
+### Unit 05: Testing, Debugging, Logging, JSON, and CSV
 
 **Goal:** Make programs easier to trust, debug, and maintain.
 
@@ -412,7 +421,7 @@ unit02_create_your_own_library/
 **Suggested folder:**
 
 ```text
-unit03_testing_logging_data/
+unit05_testing_logging_data/
   app.py
   data_store.py
   tests/
@@ -427,7 +436,7 @@ unit03_testing_logging_data/
 
 ### Project 1: Structured CLI Project
 
-**Goal:** Apply Units 01-04 in one practical command-line application.
+**Goal:** Apply Units 01-05 in one practical command-line application.
 
 **Possible project ideas:**
 
@@ -467,7 +476,7 @@ project01_structured_cli_app/
 
 ---
 
-### Unit 05: Data Preparation and Analysis Bridge
+### Unit 06: Data Preparation and Analysis Bridge
 
 **Goal:** Turn the CLI project data from Project 1 into clean, trustworthy summaries that can feed the reporting, Streamlit, API, and capstone units.
 
@@ -475,16 +484,16 @@ This unit is intentionally placed after Project 1 and before visualization so st
 
 **Connection from earlier units:**
 
-- reuse the modules, data model, validation, logging, tests, JSON, and CSV files from Units 01-04 and Project 1
+- reuse the modules, data model, validation, logging, tests, JSON, and CSV files from Units 01-05 and Project 1
 - read saved project data instead of creating disconnected sample data
 - keep analysis code separate from input/output code so the project remains organized
 - write one or two tests for summary functions before using them in reports
 
 **Connection to later units:**
 
-- create summary tables that become chart inputs in Unit 06 Part 1
-- create cleaned datasets that can be displayed in Streamlit in Unit 06 Part 2
-- prepare a reusable data-processing pattern before external API data arrives in Unit 07
+- create summary tables that become chart inputs in Unit 07 Part 1
+- create cleaned datasets that can be displayed in Streamlit in Unit 07 Part 2
+- prepare a reusable data-processing pattern before external API data arrives in Unit 08
 - help students choose capstone metrics, questions, and data flow before building the final project
 
 **Topics:**
@@ -499,7 +508,7 @@ This unit is intentionally placed after Project 1 and before visualization so st
 **Suggested folder:**
 
 ```text
-unit05_data_analysis_bridge/
+unit06_data_analysis_bridge/
   README.md
   analysis_notes.md
   analyze_project_data.py
@@ -514,7 +523,7 @@ unit05_data_analysis_bridge/
 
 ---
 
-### Unit 06: Visualization, Reports, and Streamlit
+### Unit 07: Visualization, Reports, and Streamlit
 
 **Goal:** Present project results in a clear visual format.
 
@@ -538,7 +547,7 @@ unit05_data_analysis_bridge/
 
 ---
 
-### Unit 07: APIs and External Data
+### Unit 08: APIs and External Data
 
 **Goal:** Connect Python projects to external data.
 
