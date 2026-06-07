@@ -31,8 +31,8 @@ Each week is estimated at approximately **2 hours**.
 | Course | Duration | Estimated Hours | Main Output |
 |---|---:|---:|---|
 | Beginner Course: Python Fundamentals | 20 weeks | 40 hours | Notebook exercises, Project 1, Project 2, and Capstone 1 |
-| Intermediate Course: Practical Python Programming | 13 weeks | 26 hours | Structured CLI project and practical Python capstone |
-| Total Learning Path | 33 weeks | 66 hours | Beginner-to-intermediate Python portfolio |
+| Intermediate Course: Practical Python Programming | 14 weeks | 28 hours | Structured CLI project, data analysis bridge, and practical Python capstone |
+| Total Learning Path | 34 weeks | 68 hours | Beginner-to-intermediate Python portfolio |
 
 ---
 
@@ -112,12 +112,13 @@ Each week is estimated at approximately **2 hours**.
 | Week 5 | Unit 04 Part 1 | Error Handling and Debugging | Use `try/except`, read errors, and debug code |
 | Week 6 | Unit 04 Part 2 | Testing, Logging, JSON, and CSV | Add tests, logs, and saved data files |
 | Week 7 | Project 1 | Structured CLI Project | Build a structured command-line application |
-| Week 8 | Unit 06 Part 1 | Visualization and Reports | Create charts and summary reports |
-| Week 9 | Unit 06 Part 2 | Streamlit Basics | Turn a report into a simple Streamlit app |
-| Week 10 | Unit 07 Part 1 | API Basics | Call an API and parse JSON responses |
-| Week 11 | Unit 07 Part 2 | API App with Error Handling | Build a small API-powered app |
-| Week 12 | Capstone Planning | Intermediate Capstone Design | Plan project structure, features, and data flow |
-| Week 13 | Capstone Build | Intermediate Capstone Project | Complete and present a practical Python application |
+| Week 8 | Unit 05 | Data Preparation and Analysis Bridge | Clean Project 1 data and prepare summaries for later reports, charts, Streamlit, APIs, and capstone planning |
+| Week 9 | Unit 06 Part 1 | Visualization and Reports | Create charts and summary reports |
+| Week 10 | Unit 06 Part 2 | Streamlit Basics | Turn a report into a simple Streamlit app |
+| Week 11 | Unit 07 Part 1 | API Basics | Call an API and parse JSON responses |
+| Week 12 | Unit 07 Part 2 | API App with Error Handling | Build a small API-powered app |
+| Week 13 | Capstone Planning | Intermediate Capstone Design | Plan project structure, features, and data flow |
+| Week 14 | Capstone Build | Intermediate Capstone Project | Complete and present a practical Python application |
 
 ---
 
@@ -129,7 +130,8 @@ Each week is estimated at approximately **2 hours**.
 | Unit 02 | Create Your Own Library | Build a small reusable library with an importable function, class, and data model |
 | Unit 03 | Command Line, Git, and Virtual Environment | Learn the basic workflow for running and managing Python projects |
 | Unit 04 | Testing, Debugging, Logging, JSON, and CSV | Make programs safer, easier to debug, and easier to maintain |
-| Unit 05 | Intermediate Project 1 | Apply Units 01–04 in a structured CLI project |
+| Project 1 | Structured CLI Project | Apply Units 01–04 in a structured command-line project |
+| Unit 05 | Data Preparation and Analysis Bridge | Turn Project 1 data into clean summaries that connect to reports, apps, APIs, and the capstone |
 | Unit 06 | Visualization, Reports, and Streamlit | Present program results using charts, reports, and simple web apps |
 | Unit 07 | APIs and External Data | Connect Python programs to outside data sources |
 | Unit 08 | Intermediate Capstone Project | Build a complete practical Python application |
