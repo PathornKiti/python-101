@@ -46,7 +46,7 @@ The setup unit should be completed before the main course starts. The remaining 
 | Sequence | Week | Unit / Project | Topic | Main Output |
 |---:|---:|---|---|---|
 | 0 | Before Week 1 | Setup Preparation | VS Code, Python, Git, GitHub, and virtual environment basics | Student computer is ready for development |
-| 1 | Week 1 | Unit 01 Part 1 | From Notebook to `.py` Files | A working Python script converted from notebook-style code |
+| 1 | Week 1 | [Unit 01 Part 1](unit01_notebook_to_py/) | From Notebook to `.py` Files | A working Python script converted from notebook-style code |
 | 2 | Week 2 | Unit 01 Part 2 | Create Your Own Library | A reusable module imported by another script |
 | 3 | Week 3 | Unit 02 Part 1 | Command Line Basics | Students can navigate folders and run scripts from terminal |
 | 4 | Week 4 | Unit 02 Part 2 | Git and Virtual Environment | A Git-tracked Python project with `venv` and `requirements.txt` |
@@ -60,7 +60,14 @@ The setup unit should be completed before the main course starts. The remaining 
 | 12 | Week 12 | Capstone Planning | Intermediate Capstone Design | Project plan, folder structure, feature list, and data flow |
 | 13 | Week 13 | Capstone Build | Intermediate Capstone Project | Completed practical Python application and presentation |
 
+
 ---
+
+## Available Unit Materials
+
+| Unit | Folder | Materials |
+|---|---|---|
+| Unit 01 Part 1 | [`unit01_notebook_to_py/`](unit01_notebook_to_py/) | Notebook lesson, script example, and best-practice notes for moving from `.ipynb` to `.py` files. |
 
 ## Setup Preparation: Step-by-Step
 
@@ -135,7 +142,7 @@ Inside this folder, each unit can have its own project folder:
 
 ```text
 intermediate-python/
-  unit01_scripts_and_modules/
+  unit01_notebook_to_py/
   unit02_cli_git_venv/
   unit03_testing_logging_data/
   project01_structured_cli_app/
