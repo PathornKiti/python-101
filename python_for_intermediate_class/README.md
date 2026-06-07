@@ -49,7 +49,7 @@ The setup unit should be completed before the main course starts. The remaining 
 | 1 | Week 1 | [Unit 01 Part 1](unit01_notebook_to_py/) | From Notebook to `.py` Files | A working Python script converted from notebook-style code |
 | 2 | Week 2 | [Unit 02](unit02_create_your_own_library/) | Create Your Own Library with a Data Model | A reusable package imported by a script and notebook |
 | 3 | Week 3 | [Unit 03 Part 1](unit03_command_line/) | Command Line Basics | Students can navigate folders and run scripts from terminal |
-| 4 | Week 4 | Unit 03 Part 2 | Git and Virtual Environment | A Git-tracked Python project with `venv` and `requirements.txt` |
+| 4 | Week 4 | [Unit 04](unit04_venv_git/) | Git and Virtual Environment | A Git-tracked Python project with `venv` and `requirements.txt` |
 | 5 | Week 5 | Unit 04 Part 1 | Error Handling and Debugging | Safer code using exceptions and debugging habits |
 | 6 | Week 6 | Unit 04 Part 2 | Testing, Logging, JSON, and CSV | Basic tests, log file, and saved data files |
 | 7 | Week 7 | Project 1 | Structured CLI Project | A command-line application using Units 01-04 |
@@ -71,7 +71,7 @@ The setup unit should be completed before the main course starts. The remaining 
 | Unit 01 Part 1 | [`unit01_notebook_to_py/`](unit01_notebook_to_py/) | Notebook lesson, script example, and best-practice notes for moving from `.ipynb` to `.py` files. |
 | Unit 02 | [`unit02_create_your_own_library/`](unit02_create_your_own_library/) | Notebook lesson, script example, and reusable package that exports a function, class, and data model. |
 | Unit 03 Part 1 | [`unit03_command_line/`](unit03_command_line/) | Command-line cheat sheet, first student-written CLI pattern, raw argument demo, and argparse examples that reuse the Unit 02 library. |
-| Unit 03 Part 1 | [`unit03_command_line/`](unit03_command_line/) | Command-line cheat sheet, raw argument demo, and argparse examples that reuse the Unit 02 library. |
+| Unit 04 | [`unit04_venv_git/`](unit04_venv_git/) | Detailed Markdown lesson for virtual environments, Git setup, step-by-step workflows, troubleshooting, and a command cheat sheet. |
 | Unit 05 | [`unit05_data_analysis_bridge/`](unit05_data_analysis_bridge/) | Markdown lesson plan that connects the structured CLI project to visualization, Streamlit, APIs, and the capstone. |
 
 ## Setup Preparation: Step-by-Step
